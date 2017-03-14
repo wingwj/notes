@@ -22,7 +22,7 @@
 
 1. 提示包冲突时，比如如下的packaging包：
 
-   ```File "/opt/stack/requirements/.venv/local/lib/python2.7/site-packages/pkg_resources/__init__.py", line 859, in resolve        raise VersionConflict(dist, req).with_context(dependent_req)    pkg_resources.VersionConflict: (packaging 16.7 (/opt/stack/requirements/.venv/lib/python2.7/site-packages), Requirement.parse('packaging>=16.8'))```
+   ```pkg_resources.VersionConflict: (packaging 16.7/opt/stack/requirements/.venv/lib/python2.7/site-packages), Requirement.parse('packaging>=16.8'))```
 
    这时，建议不用浪费时间手动执行手动更新：
 
