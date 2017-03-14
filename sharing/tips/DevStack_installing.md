@@ -32,15 +32,7 @@
 
    比如在此例中，直接修改`/opt/stack/requirements/upper-constraints.txt` 文件中packaging 对应版本，从
 
-   ```packaging===16.7```
-
-   修改为
-
-   ```packaging>=16.8```, 
-
-   保存退出，重新执行
-
-   ```./stack.sh```
+   `packaging===16.7`修改为`packaging>=16.8`, 保存退出，重新执行`./stack.sh`
 
    即可继续安装了。
 
